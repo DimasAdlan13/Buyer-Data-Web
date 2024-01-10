@@ -109,7 +109,7 @@ header('Location: login.php');
         $jumlahData = $row['jumlah'];
         $jumlahHalaman = ceil($jumlahData / 7);
 
-        // Mendapatkan halaman saat ini
+        // Mendapatkan halaman saat iniiiiii
         $halaman = isset($_GET['halaman']) ? $_GET['halaman'] : 1;
         $halaman = max(1, min($halaman, $jumlahHalaman));
 
