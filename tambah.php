@@ -33,7 +33,7 @@
 
     <div class="container">
         <!-- Content -->
-        <h1>Tambah Data Pembeli</h1>
+        <h1>Tambah Data Pembeliannn</h1>
 
         <form action="tambah_data.php" method="POST">
             <div class="form-group">
