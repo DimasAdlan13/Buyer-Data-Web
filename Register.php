@@ -156,7 +156,7 @@
                     <?php } ?>
 
                     <div class="form-group">
-                        <label for="name">Nama</label>
+                        <label for="name">Namaaaaa</label>
                         <input type="text" class="form-koneksitrol" id="name" name="name" placeholder="Masukkan Nama">
                     </div>
 
