@@ -17,7 +17,7 @@ header('Location: login.php');
 <html>
 
 <head>
-    <title>Aplikasi Data Pembeli</title>
+    <title>Aplikasi Data Pembelian</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
@@ -109,7 +109,7 @@ header('Location: login.php');
         $jumlahData = $row['jumlah'];
         $jumlahHalaman = ceil($jumlahData / 7);
 
-        // Mendapatkan halaman saat ini
+        // Mendapatkan halaman saat iniiiiii
         $halaman = isset($_GET['halaman']) ? $_GET['halaman'] : 1;
         $halaman = max(1, min($halaman, $jumlahHalaman));
 
