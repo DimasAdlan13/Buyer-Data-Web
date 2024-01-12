@@ -14,7 +14,7 @@ $harga = $_POST['harga'];
 
 
 
-// PUNYA DIMAS
+// PUNYA DIMAS adlannn 
 // update data ke database 
 mysqli_query($conn, "update adlan set nama='$nama', alamat='$alamat', hp = '$hp', tgl_transaksi='$tgl_transaksi', jenis_barang='$jenis_barang', jumlah='$jumlah', harga='$harga' where id_pembeli='$id_pembeli'");
 // mengalihkan halaman kembali ke index.php 
